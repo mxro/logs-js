@@ -6,7 +6,7 @@
 	<artifactId>logs-js</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
 
-	<description>Lightweight metrics for JavaSciprt.</description>
+	<description>A Cross-Platform Logging Implementation for JavaScript and Java based on asyn-log and GWT.</description>
 	<url>https://github.com/mxro/logs-js</url>
 	<properties>
 		<module.gwtVersion>2.5.1</module.gwtVersion>
