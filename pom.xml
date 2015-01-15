@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Template: Source 
-	+ GWT + in workspace dependencies 27.11.2010 --><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<groupId>de.mxro.metrics.js</groupId>
-	<artifactId>metrics-js</artifactId>
-	<version>0.0.2</version>
+	+ GWT + in workspace dependencies 27.11.2010 -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<groupId>de.mxro.log.js</groupId>
+	<artifactId>logs-js</artifactId>
+	<version>0.0.2-SNAPSHOT</version>
 
 	<description>Lightweight metrics for JavaSciprt.</description>
-	<url>https://github.com/mxro/metrics-js</url>
+	<url>https://github.com/mxro/logs-js</url>
 	<properties>
 		<module.gwtVersion>2.5.1</module.gwtVersion>
 		<module.importedPackages>
 			org.junit,
 			*
 		</module.importedPackages>
-		<module.exportedPackages>!de.mxro.metrics.js.internal*,de.mxro.metrics.js*
+		<module.exportedPackages>!de.mxro.log.js.internal*,de.mxro.log.js*
 		</module.exportedPackages>
 		<module.serviceDefinitions>
 		</module.serviceDefinitions>
@@ -23,9 +25,9 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>de.mxro.metrics</groupId>
-			<artifactId>metrics</artifactId>
-			<version>0.0.3</version>
+			<groupId>de.mxro.async.log</groupId>
+			<artifactId>async-log</artifactId>
+			<version>0.0.2</version>
 		</dependency>
 
 		<dependency>
@@ -162,8 +164,8 @@
 						</goals>
 						<configuration>
 							<tasks>
-								<delete file="${basedir}/META-INF/MANIFEST.MF"/>
-								<copy file="target/classes/META-INF/MANIFEST.MF" tofile="${basedir}/META-INF/MANIFEST.MF"/>
+								<delete file="${basedir}/META-INF/MANIFEST.MF" />
+								<copy file="target/classes/META-INF/MANIFEST.MF" tofile="${basedir}/META-INF/MANIFEST.MF" />
 							</tasks>
 						</configuration>
 					</execution>
@@ -215,7 +217,9 @@
 									<link>http://modules.appjangle.com/fn-api/latest/apidocs/</link>
 									<link>http://modules.appjangle.com/async-api/latest/apidocs/</link>
 									<link>http://modules.appjangle.com/concurrency/latest/apidocs/</link>
-									<link>http://modules.appjangle.com/lightweight-java-metrics/latest/apidocs/</link>
+									<link>http://modules.appjangle.com/async-log/latest/apidocs/</link>
+									<link>http://modules.appjangle.com/java-promise/latest/apidocs/</link>
+									<link>http://modules.appjangle.com/async-properties/latest/apidocs/</link>
 								</links>
 							</configuration>
 						</plugin>
