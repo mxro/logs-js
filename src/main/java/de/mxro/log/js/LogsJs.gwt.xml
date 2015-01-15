@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='logsjs'>
+	
+	<inherits name='de.mxro.async.log.Logs' /> 
+
+	<source path=''>
+		<exclude name="**/jre/**" />
+	</source>
+
+</module>
