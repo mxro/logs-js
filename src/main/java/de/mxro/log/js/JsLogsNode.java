@@ -34,7 +34,6 @@ public class JsLogsNode implements Exportable {
 
     public JsLogsNode() {
         super();
-
     }
 
 }
