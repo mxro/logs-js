@@ -10,6 +10,7 @@ import de.mxro.async.properties.PropertyNode;
 @Export
 public class JsLogsNode implements Exportable {
 
+    @NoExport
     private PropertyNode node;
 
     @Export
