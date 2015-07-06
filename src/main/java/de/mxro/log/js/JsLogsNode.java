@@ -1,11 +1,12 @@
 package de.mxro.log.js;
 
+import delight.async.properties.PropertyNode;
+
 import org.timepedia.exporter.client.Export;
 import org.timepedia.exporter.client.Exportable;
 import org.timepedia.exporter.client.NoExport;
 
 import de.mxro.async.log.LogsCommon;
-import de.mxro.async.properties.PropertyNode;
 
 @Export
 public class JsLogsNode implements Exportable {
